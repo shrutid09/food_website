@@ -1,0 +1,36 @@
+@import "../../App.scss";
+.search-box {
+  width: 50px;
+  height: 10;
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.search-form {
+  background-color: rgb(240, 240, 245);
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  min-width: 300px;
+  height: 48px;
+  font-size: 16px;
+  border-radius: 12px;
+  padding: 0px 3.2rem;
+  margin-right: 1.2rem;
+  .form-control-input {
+    background-color: unset;
+    width: 280px;
+  }
+  .form-submit-btn {
+    .btn-icon {
+      color: #02060c99;
+    }
+  }
+}

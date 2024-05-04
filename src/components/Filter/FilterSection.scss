@@ -1,0 +1,74 @@
+/* FilterSection.scss */
+
+.filter-section {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.filter-buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.filter-button,
+.sort-button {
+  border-radius: 18px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(226, 226, 231);
+  padding: 9px 12px;
+  display: inline-grid;
+  width: max-content;
+  grid-auto-flow: column;
+  gap: 8px;
+  box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
+  transition: all 100ms ease-in 0s;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: rgba(2, 6, 12, 0.75);
+}
+
+.filter-button:hover,
+.sort-button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+.filter-dropdown {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.filter-option label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.filter-option select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.apply-button {
+  background-color: #4caf50; /* Green */
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.apply-button:hover {
+  background-color: #45a049; /* Darker green */
+}
